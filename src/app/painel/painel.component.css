@@ -1,0 +1,13 @@
+.jumbotron{
+     margin: 50px;
+     padding: 20px;
+}
+
+.progress{
+     background: #EEF8DA;
+     border: 1px solid #99CE28;
+}
+
+.progress-bar{
+     background: #99CE28;
+}

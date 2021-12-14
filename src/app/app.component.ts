@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tongo';
+
+  public isGanhador: boolean;
+
+  public finalizaJogo(evento): void{
+    this.isGanhador = evento;
+  }
+  
+  public reiniciarJogo(): void{
+    this.isGanhador = undefined;
+  }
+
 }
